@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.0" type="module">
+    <name>Banners</name>
+    <description>This module allows you to show banners on the Frontend of website.</description>
+    <version>0.0.1</version>
+    <creationDate>16/02/2015</creationDate>
+    <lastChangedDate>24/02/2015</lastChangedDate>
+    <author>ApPHP</author>
+    <authorEmail>info@apphp.com</authorEmail>
+    <authorUrl>http://www.apphp.com</authorUrl>
+    <copyright>ApPHP</copyright>
+    <license>LGPL</license>
+    <manual></manual>
+    <icon>images/modules/banners/icon.png</icon>
+    <moduleType>application</moduleType>
+    <code>banners</code>
+    <files>
+        <filename>info.xml</filename>
+        <components>
+            <filename>BannersComponent.php</filename>
+        </components>
+        <config installationPath="protected/config/">
+            <filename exclude="yes">main.php</filename>
+            <filename>banners.php</filename>
+        </config>
+        <controllers>
+            <filename>BannersController.php</filename>
+        </controllers>
+        <data>
+            <install>install.mysql.sql</install>
+            <update>
+                <filename>update.002.mysql.sql</filename>
+            </update>
+            <uninstall>uninstall.mysql.sql</uninstall>
+        </data>
+        <images installationPath="images/modules/banners/" byDirectory="true">
+            <filename>icon.png</filename>
+            <filename>empty_slider.png</filename>
+            <filename>no_image.png</filename>
+            <filename>1.gif</filename>
+            <filename>2.gif</filename>
+            <filename>3.gif</filename>
+            <filename>4.gif</filename>
+            <filename>5.gif</filename>
+            <filename>1_thumb.gif</filename>
+            <filename>2_thumb.gif</filename>
+            <filename>3_thumb.gif</filename>
+            <filename>4_thumb.gif</filename>
+            <filename>5_thumb.gif</filename>
+            <items>
+                <filename>no_image.png</filename>
+            </items>
+        </images>
+        <models>
+            <filename>Banners.php</filename>
+        </models>
+        <messages installationPath="protected/messages/*">
+            <en>
+                <filename>banners.php</filename>
+            </en>
+            <ru>
+                <filename>banners.php</filename>
+            </ru>
+        </messages>
+        <views>
+            <banners>
+                <filename>add.php</filename>
+                <filename>edit.php</filename>
+                <filename>manage.php</filename>
+            </banners>
+        </views>
+    </files>
+</install>

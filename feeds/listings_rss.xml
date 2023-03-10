@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<atom:link href="feeds/listings_rss.xml" rel="self" type="application/rss+xml" />
+<title>Business Directory</title>
+<link>feeds/listings_rss.xml</link>
+<description>Business Directory</description>
+<language>en</language>
+<copyright>(c) copyright</copyright>
+<pubDate>Wed, 29 Jun 2016 11:55:02 UTC</pubDate>
+<image>
+<url>http://bd//images/modules/directory/icon.png</url>
+<title>Business Directory</title>
+<link>feeds/listings_rss.xml</link>
+</image>
+<item>
+<title>AVA Consult Center</title>
+<link>http://bd/listings/view/id/1</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/1</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Dance &amp; Relax</title>
+<link>http://bd/listings/view/id/3</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/3</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Bike PRO</title>
+<link>http://bd/listings/view/id/4</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/4</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Golf Game</title>
+<link>http://bd/listings/view/id/5</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/5</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Pizza House JARO</title>
+<link>http://bd/listings/view/id/6</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/6</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Age Travel</title>
+<link>http://bd/listings/view/id/7</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/7</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Art Restaurant</title>
+<link>http://bd/listings/view/id/16</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/16</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Dr. Sabol</title>
+<link>http://bd/listings/view/id/20</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/20</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Dr. Martin</title>
+<link>http://bd/listings/view/id/21</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/21</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+<item>
+<title>Car AVA</title>
+<link>http://bd/listings/view/id/31</link>
+<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Integer leo est, lobortis non egestas eget, interdum vel eros.Curabitur id erat lorem. Pellentesque tincidunt pellentesque augue condimentum varius. Suspendisse potenti. Maecen...</description>
+<author>Array</author>
+<guid>http://bd/listings/view/id/31</guid>
+<pubDate>Mon, 27 Jun 2016 22:20:04 UTC</pubDate>
+</item>
+</channel>
+</rss>

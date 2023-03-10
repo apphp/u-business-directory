@@ -1,0 +1,17 @@
+.type-news .entry-thumbnail img {
+    margin: auto;
+    width:100%;
+    max-height:250px
+}
+
+.type-news .entry-meta time.entry-date {
+    background:transparent url("../../../templates/default/img/blog_icons_light.png") no-repeat scroll -83px 0px; 
+    padding:3px 0 3px 22px;
+}
+
+.news-breadcrumb {
+    margin-top:-10px;
+    margin-bottom:20px;
+    text-align:center;
+}
+

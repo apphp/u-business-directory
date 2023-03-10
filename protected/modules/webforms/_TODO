@@ -1,0 +1,32 @@
+0 add "button press" blocker in js functions that sends ajax request
+
+1. [VIP] Add possiblity to create/manage webforms with defined fields (like in report module)
+   + option to dysplay each form by WebForms::Draw(ID)
+   
+2. Redo component with using of views!!!!!!  , where form HTML is used directly, not with CHTTL::
+
+1. WebForms module (additions)
+    -- add check in JS function to prevent using of HTML tags!!!!! - alert 
+    -- add captcha validation (optional)
+    -- implement in settings - process all fields at one time or field-by-field
+    -- define in settings type of submission: POST or AJAX (do we need both or AJAX is enough?)
+    -- add possibility to define delay before next submit (to prevent spam submissions)
+    -- implement privileges to module webforms (what of total allowed and sinle not allowed???)
+    -- add possibility to create different forms !!!! + implement privileges: 'webforms'.'add'
+    -- redo componnet with render()!!!
+       * 1st text with full HTML
+       * add if()else() etc...
+    -- if token is wrong it returns error: Wrong First name - must return something erlse - like: No tokem refresh the page???
+    -- cherck why it doesn't add \r\n in email!!!
+    -- must save all send emails to special table and show it in admin panel - like "Leads" !!!
+    -- add settings: show/hide gorm title :
+        $output .= CHtml::tag('h2', array(), A::t('webforms', 'Contact Form')).self::NL;
+    -- labels: outside field / inside field(as placeholder) : Name. Email etc.... and small text as title!!!
+		$fieldPhone .= CHtml::textField('contact_phone', '', array('data-required'=>($required ? 'true' : 'false'), 'maxlength'=>'125', 'autocomplete'=>'off', 'placeholder'=>$requiredMark.A::t('webforms', 'Phone'), 'title'=>A::t('webforms', 'Add a valid phone number'))).self::NL;
+    -- add buttion clear/reset + in settings
+    -- possibility to add more then 1 email to contact (few) + option to define which of then this form will use
+	-- possibility to create multiple webforms with different settings???
+
+
+1. Sending Delay	Specifies whether to allow time delay between sending emails
+2. Delay Length	Defines a length of delay between sending emails (in seconds)

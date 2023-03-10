@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.0" type="module">
+    <name>Web Forms</name>
+    <description>Web Forms module allows creating online forms on site pages</description>
+    <version>0.0.3</version>
+    <creationDate>31/07/2013</creationDate>
+    <lastChangedDate>27/07/2014</lastChangedDate>
+    <author>ApPHP</author>
+    <authorEmail>info@apphp.com</authorEmail>
+    <authorUrl>http://www.apphp.com</authorUrl>
+    <copyright>ApPHP</copyright>
+    <license>LGPL</license>
+    <manual></manual>
+    <icon>images/modules/webforms/icon.png</icon>
+    <moduleType>application</moduleType>
+    <code>webforms</code>
+    <files>
+        <filename>info.xml</filename>
+        <components>
+            <filename>Webforms.php</filename>
+        </components>
+        <config installationPath="protected/config/">
+			<filename exclude="yes">main.php</filename>
+            <filename>webforms.php</filename>
+        </config>
+		<controllers>
+			<filename>FormProcessController.php</filename>
+		</controllers>
+        <data>
+            <install>install.mysql.sql</install>
+            <update>update.002.mysql.sql</update>
+            <update>update.003.mysql.sql</update>
+            <uninstall>uninstall.mysql.sql</uninstall>
+        </data>
+        <images installationPath="images/modules/webforms/" byDirectory="true">
+            <filename>icon.png</filename>
+        </images>
+        <css installationPath="css/modules/webforms/" byDirectory="true">
+            <filename>webforms.css</filename>
+        </css>
+        <js installationPath="js/modules/webforms/" byDirectory="true">
+            <filename>webforms.js</filename>
+        </js>
+        <messages installationPath="protected/messages/*">
+            <en default="true">
+                <filename>webforms.php</filename>
+            </en>
+            <es>
+                <filename>webforms.php</filename>
+            </es>
+            <de>
+                <filename>webforms.php</filename>
+            </de>
+            <he>
+                <filename>webforms.php</filename>
+            </he>
+            <ru>
+                <filename>webforms.php</filename>
+            </ru>
+        </messages>
+    </files>
+</install>

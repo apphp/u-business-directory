@@ -1,0 +1,22 @@
+#contact-form { padding:14px; }
+#contact-form .row { padding:1px; }
+#contact-form h2 { font-size:18px; color:#4f4439; font-weight:bold; margin:1px 0 8px 0; }
+#contact-form p { font-size:14px; margin-bottom:20px; padding-bottom:10px; }
+#contact-form p.error { display:inline-block; font-weight:normal; border:0px; color:#bd3020; max-width:290px; text-align:left; padding:0px 0 5px 225px; margin:0; }
+#contact-form label { color: #222; font-weight: bold; display: inline-block; text-align: right; width: 200px; }
+#contact-form .small { color:#585048; display:block; font-size:11px; font-weight:normal; text-align:right; width:190px; }
+#contact-form input { padding: 8px; border: 1px solid #DEDEDE; margin-bottom: 7px; margin-top: 8px; margin-left: 3%; width: 88%; max-width: 290px;}
+#contact-form input#captcha_validation { width:140px; }
+#contact-form .captcha label { vertical-align:middle; }
+#contact-form textarea { max-width: 290px; border: 1px solid #D7D7D7; font-size: 12px; width: 85%; height: 70px; margin: 8px 0px 0px 3%; padding: 4px 8px;}
+#contact-form button { padding: 4px 8px; margin-left: 222px; }
+
+@media all and (max-width:768px) {
+    #contact-form label { display: block; text-align: left; clear:both; margin-left: 3%; width:100%; }
+    #contact-form { text-align:center; }
+    #contact-form input,
+    #contact-form textarea,
+    #contact-form p.error { margin-left: auto; margin-right:auto; }
+    #contact-form button { margin:auto; width:85%; display:block; margin-top:3%; }
+    #contact-form p.error { padding: 0 0 5px 0;}
+}

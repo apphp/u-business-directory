@@ -1,0 +1,27 @@
+ Requirements
+ ---------------------------------------------------------------------------
+ - ApPHP Directy CMF v2.3.0 or later 
+
+ Modules Installation/Update:
+ ---------------------------------------------------------------------------
+ - http://www.apphp.com/php-directy-cmf/index.php?page=module-installation-and-update
+ 
+ Usage:
+ ---------------------------------------------------------------------------
+ In HTML template:
+ 
+	<?php
+		if($this->isHomePage){
+			echo BannersComponent::drawSlider(array(
+				'width' 		=> '670',
+				'height' 		=> '300',
+				'navigation' 	=> 'true',
+				'delay'			=> 5
+			));
+		}						
+	?>					
+ 
+ In CMS pages:
+ 
+	{module:banners}
+

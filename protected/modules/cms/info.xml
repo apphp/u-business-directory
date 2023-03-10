@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.0" type="module">
+    <name>Content Management</name>
+    <description>CMS module allows management of site content</description>
+    <version>0.0.4</version>
+    <creationDate>21/04/2013</creationDate>
+    <lastChangedDate>21/07/2015</lastChangedDate>
+    <author>ApPHP</author>
+    <authorEmail>info@apphp.com</authorEmail>
+    <authorUrl>http://www.apphp.com</authorUrl>
+    <copyright>ApPHP</copyright>
+    <license>LGPL</license>
+    <manual></manual>
+    <icon>images/modules/cms/icon.png</icon>
+    <moduleType>application</moduleType>
+    <code>cms</code>
+    <files>
+        <filename>info.xml</filename>
+        <config installationPath="protected/config/">
+            <filename exclude="yes">main.php</filename>
+            <filename>cms.php</filename>
+        </config>
+        <controllers>
+            <filename>PagesController.php</filename>
+        </controllers>
+        <data>
+            <install>install.mysql.sql</install>
+            <update>
+                <filename>update.003.mysql.sql</filename>
+                <filename>update.004.mysql.sql</filename>
+            </update>
+            <uninstall>uninstall.mysql.sql</uninstall>
+        </data>
+        <images installationPath="images/modules/cms/" byDirectory="true">
+            <filename>icon.png</filename>
+        </images>
+        <icons installationPath="templates/backend/images/icons/">
+            <filename>cms.png</filename>
+        </icons>
+        <messages installationPath="protected/messages/*">
+            <filename>cms.php</filename>
+        </messages>
+        <models>
+            <filename>Pages.php</filename>
+        </models>
+        <views>
+            <pages>
+                <filename>index.php</filename>
+            </pages>
+        </views>
+    </files>
+</install>

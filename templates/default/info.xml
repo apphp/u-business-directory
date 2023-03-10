@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<install version="1.0" type="template">
+    <name>Default Template</name>
+    <creationDate>10/08/2015</creationDate>
+    <lastChangedDate>21/10/2016</lastChangedDate>
+    <author>IitThemes</author>
+    <authorEmail></authorEmail>
+    <authorUrl>http://www.ait-themes.com</authorUrl>
+    <copyright>IitThemes</copyright>
+    <license>Standard</license>
+    <version>1.0.1</version>
+    <description>uBusinessDirectory Default Template</description>
+    <layout>Multiple Responsive Layouts</layout>
+    <direction>Left-to-Right/Right-to-Left</direction>
+    <icon>images/template_icon.png</icon>
+    <menus>
+        <menu>Top</menu>
+        <menu>Bottom</menu>
+		<menu>right</menu>
+    </menus>    
+    <files>
+        <css>
+			<filename>style.css</filename>
+        </css>
+        <images>
+			<filename>general_view_thumb.png</filename>
+        </images>
+    </files>
+</install>
